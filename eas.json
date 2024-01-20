@@ -9,6 +9,10 @@
       "ios": {
         "simulator": true,
         "resourceClass": "m-medium"
+      },
+      "env": {
+        "EXPO_GOOGLE_MAP_API_KEY_IOS": "",
+        "EXPO_GOOGLE_MAP_API_KEY_ANDROID": ""
       }
     }
   }

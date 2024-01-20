@@ -40,6 +40,14 @@ module.exports = {
       },
     },
     plugins: [
+      [
+        "expo-build-properties",
+        {
+          ios: {
+            useFrameworks: "static",
+          },
+        },
+      ],
       "./bin/react-native-maps-plugin",
       "./bin/react-apple-ios-simulator-not-found-plugin",
     ],
