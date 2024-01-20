@@ -39,7 +39,10 @@ module.exports = {
         projectId: "09bceb6c-3a84-4de4-9cb9-0f79277c68be",
       },
     },
-    // plugins: ["./bin/react-native-maps-plugin"],
+    plugins: [
+      "./bin/react-native-maps-plugin",
+      "./bin/react-apple-ios-simulator-not-found-plugin",
+    ],
     owner: "medyahyejoud",
   },
 };
